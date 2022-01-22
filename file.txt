@@ -1,0 +1,81 @@
+Client:
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  app: Docker App (Docker Inc., v0.9.1-beta3)
+  buildx: Build with BuildKit (Docker Inc., v0.6.3-docker)
+  scan: Docker Scan (Docker Inc., v0.8.0)
+
+Server:
+ Containers: 0
+  Running: 0
+  Paused: 0
+  Stopped: 0
+ Images: 7
+ Server Version: 20.10.9
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 1
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: active
+  NodeID: 2pdii10ry9xk2090o8jnw9xqu
+  Is Manager: true
+  ClusterID: eopv301lygde6p90vv2jz062m
+  Managers: 1
+  Nodes: 1
+  Default Address Pool: 10.0.0.0/8  
+  SubnetSize: 24
+  Data Path Port: 4789
+  Orchestration:
+   Task History Retention Limit: 5
+  Raft:
+   Snapshot Interval: 10000
+   Number of Old Snapshots to Retain: 0
+   Heartbeat Tick: 1
+   Election Tick: 10
+  Dispatcher:
+   Heartbeat Period: 5 seconds
+  CA Configuration:
+   Expiry Duration: 3 months
+   Force Rotate: 0
+  Autolock Managers: false
+  Root Rotation In Progress: false
+  Node Address: 192.168.1.22
+  Manager Addresses:
+   192.168.1.22:2377
+ Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 5b46e404f6b9f661a205e28d59c982d3634148f8
+ runc version: v1.0.2-0-g52b36a2
+ init version: de40ad0
+ Security Options:
+  apparmor
+  seccomp
+   Profile: default
+ Kernel Version: 5.4.0-94-generic
+ Operating System: Ubuntu 20.04.3 LTS
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 8
+ Total Memory: 15.49GiB
+ Name: dellxps
+ ID: GCGS:3OVQ:TJJ3:3HWI:KKLF:JNWM:UJTG:MZYW:KOET:NWTO:TR3M:LSWK
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Username: kaumil4
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
